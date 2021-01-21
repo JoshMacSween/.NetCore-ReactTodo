@@ -1,4 +1,4 @@
-.accordion-button {
+/* .accordion-button {
   display: block;
   width: 100%;
   padding: 15px;
@@ -35,4 +35,10 @@
   max-height: 100px;
   transition: all 0.2s ease-in-out;
   background: #eee;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

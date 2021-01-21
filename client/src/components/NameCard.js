@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from '../components/Button/Button'
 
 export default function NameCard() {
   const [show, setShow] = useState(false);
@@ -18,6 +19,7 @@ export default function NameCard() {
             possimus cum tempora quos architecto voluptatibus.
           </p>
         </div>
+          <Button label="Click Here Please"/>
       </div>
     </div>
   );
